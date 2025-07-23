@@ -1,6 +1,7 @@
 import React from "react";
 import { EXAMPLES } from "../data";
 const TabContent = (props) => {
+  console.log("TabContent component rendered");
   return (
     <>
       {props.selectedTab ? (
